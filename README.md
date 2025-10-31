@@ -241,6 +241,10 @@ Wraps notmuch with INI-based configuration:
 }).wrapper
 ```
 
+## alternatives
+
+- [wrapper-manager](https://github.com/viperML/wrapper-manager) by viperML. This project focuses more on a single module system, configuring wrappers and exporting them. This was an inspiration when building this library, but I wanted to have a more granular approach with a single module per package and a collection of community made modules.
+
 ## Long-term Goals
 
 Upstream this schema into nixpkgs with an optional module.nix for every package. NixOS modules could then reuse these wrapper modules for consistent configuration across platforms.
